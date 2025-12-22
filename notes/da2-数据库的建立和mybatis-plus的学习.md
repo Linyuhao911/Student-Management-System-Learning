@@ -44,11 +44,12 @@ MyBatis-Plus 是对 MyBatis 的增强**不开箱即用、不改变原有特性**
 
 不再写繁琐的 Map 或 XML 条件：
 只需要写一句
+```java
 @GetMapping("/selectAll")
 public Result findAll() {
-return Result.success(courseService.list());
+    return Result.success(courseService.list());
 }
-
+```
 最后使用mybatis-plus一定要加依赖
 ！[依赖](../screenshots/2-6.png)
 
@@ -59,10 +60,10 @@ return Result.success(courseService.list());
 
 出现问题的原因：
 这个项目使用了Jwt Jwt给它拦截了 没有携带token
-！[](../screenshots/2-2.png)
+！[token的判断](../screenshots/2-2.png)
 
 解决方法：
-！[](../screenshots/2-3.png)
+！[解决方案](../screenshots/2-3.png)
 
 成功界面：
-！[](../screenshots/2-4.png)
+！[正确界面](../screenshots/2-4.png)
