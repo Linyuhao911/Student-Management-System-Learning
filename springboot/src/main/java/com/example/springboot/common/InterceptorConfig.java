@@ -5,6 +5,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 
+/**
+ * 拦截器配置类
+ */
+
 @Configuration
 public class InterceptorConfig extends WebMvcConfigurationSupport {
 
@@ -15,7 +19,7 @@ public class InterceptorConfig extends WebMvcConfigurationSupport {
                 // 拦截所有的请求路径
                 .addPathPatterns("/**")
                 // 放行以下接口
-                .excludePathPatterns("/login", "/register", "/password");
+                .excludePathPatterns("/login", "/register", "/password","/course/selectAll");
         super.addInterceptors(registry);
     }
 
