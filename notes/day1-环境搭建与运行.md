@@ -29,5 +29,5 @@
         spring:
         datasource:
             url: jdbc:mysql://localhost:3306/student_grades?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
-            username: mysql
+            username: root
             password: 3.14
