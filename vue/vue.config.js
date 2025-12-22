@@ -16,7 +16,7 @@ module.exports = defineConfig({
     chainWebpack: config => {
         // 配置标题
         config.plugin('html').tap(args => {
-                args[0].title = "学生系统管理平台";
+                args[0].title = "管理平台";
                 return args;
             })
     }
