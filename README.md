@@ -30,9 +30,15 @@
 - 2025-12-21：理解原框架结构，搭建学习仓库
 
 ## 功能预览（持续更新截图）
-![管理登录页面](./screenshots/1.png)
-![管理员页面](./screenshots/2.png)
-![管理员信息界面](./screenshots/3.png)
-![个人信息页面](./screenshots/4.png)
+![管理登录页面](screenshots/day1/1.png)
+![管理员页面](screenshots/day1/2.png)
+![管理员信息界面](screenshots/day1/3.png)
+![个人信息页面](screenshots/day1/4.png)
+![查询功能](screenshots/day3/3-9.png)
+![删除功能](screenshots/day3/3-10.png)
+![修改功能](screenshots/day3/3-11.png)
+![修改成功](screenshots/day3/3-12.png)
+![添加功能](screenshots/day3/3-13.png)
+![添加成功](screenshots/day3/3-14.png)
 
 欢迎 star 和 fork，一起交流进步！

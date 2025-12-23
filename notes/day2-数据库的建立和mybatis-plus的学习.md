@@ -1,11 +1,11 @@
 # Day2：数据库的建立和mybatis-plus的学习（2025-12-22）
 
 ## 1. mysql的表格
-![user表](../screenshots/2-7.png)
-![notice表](../screenshots/2-8.png)
-![grade表](../screenshots/2-9.png)
-![course表](../screenshots/2-10.png)
-![choose表](../screenshots/2-11.png)
+![user表](../screenshots/day2/2-7.png)
+![notice表](../screenshots/day2/2-8.png)
+![grade表](../screenshots/day2/2-9.png)
+![course表](../screenshots/day2/2-10.png)
+![choose表](../screenshots/day2/2-11.png)
 
 创建表（CREATE TABLE）基本语法
 
@@ -40,7 +40,7 @@ MyBatis-Plus 是对 MyBatis 的增强**不开箱即用、不改变原有特性**
 传统方法：
 需要写接口 + XML + 无数方法
 一共要加以下这些文件 代码很繁琐
-！[传承写法](../screenshots/2-5.png)
+![传承写法](../screenshots/day2/2-5.png)
 
 不再写繁琐的 Map 或 XML 条件：
 只需要写一句
@@ -51,19 +51,19 @@ public Result findAll() {
 }
 ```
 最后使用mybatis-plus一定要加依赖
-！[依赖](../screenshots/2-6.png)
+![依赖](../screenshots/day2/2-6.png)
 
 ## 3. Jwt的拦截
 
 如没有给selectAll开放接口就可以出现下面的情况：
-！[异常](../screenshots/2-1.png)
+![异常](../screenshots/day2/2-1.png)
 
 出现问题的原因：
 这个项目使用了Jwt Jwt给它拦截了 没有携带token
-！[token的判断](../screenshots/2-2.png)
+![token的判断](../screenshots/day2/2-2.png)
 
 解决方法：
-！[解决方案](../screenshots/2-3.png)
+![解决方案](../screenshots/day2/2-3.png)
 
 成功界面：
-！[正确界面](../screenshots/2-4.png)
+![正确界面](../screenshots/day2/2-4.png)
