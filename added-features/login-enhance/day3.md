@@ -9,3 +9,6 @@
 4. 添加功能：
 ![添加功能](../../screenshots/day3/3-13.png)
 ![添加成功](../../screenshots/day3/3-14.png)
+
+## 详细代码：
+https://github.com/Linyuhao911/Student-Management-System-Learning/tree/master
