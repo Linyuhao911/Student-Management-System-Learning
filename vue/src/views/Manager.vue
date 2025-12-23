@@ -45,13 +45,14 @@
             <el-menu-item index="/admin"><i class="el-icon-user-solid"></i><span>管理员信息</span></el-menu-item>
             <el-menu-item index="/user"><i class="el-icon-user"></i><span>用户信息</span></el-menu-item>
           </el-submenu>
-<!--          <el-submenu index="info" v-if="user.role == 'ADMIN'">
+         <el-submenu index="info" v-if="user.role == 'ADMIN'">
             <template slot="title">
               <i class="el-icon-s-data"></i>
               <span>信息管理</span>
             </template>
             <el-menu-item index="/notice"><i class="el-icon-menu"></i><span>公告信息</span></el-menu-item>
-          </el-submenu>-->
+            <el-menu-item index="/course"><i class="el-icon-menu"></i><span>课程信息</span></el-menu-item>
+          </el-submenu>
           <el-submenu index="system">
             <template slot="title">
               <i class="el-icon-s-tools"></i>

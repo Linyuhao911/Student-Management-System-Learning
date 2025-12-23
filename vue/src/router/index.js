@@ -21,6 +21,7 @@ const routes = [
       { path: 'admin', name: 'Admin', meta: { name: '管理员信息', requireAdmin: true }, component: () => import('../views/manager/Admin.vue') }, // 标记管理员权限
       { path: 'user', name: 'User', meta: { name: '用户信息', requireAdmin: true }, component: () => import('../views/manager/User.vue') }, // 标记管理员权限
       { path: 'person', name: 'ManagerPerson', meta: { name: '个人信息' }, component: () => import('../views/manager/Person.vue') }, // 修复同名路由冲突
+      { path: 'course', name: 'ManagerCourse', meta: { name: '课程信息' }, component: () => import('../views/manager/Course.vue') }, // 修复同名路由冲突
     ]
   },
   {
